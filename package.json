@@ -17,8 +17,7 @@
     "test": "ts-mocha test/**/*.spec.ts --exit --timeout 10000",
     "precommit": "lint-staged",
     "lint": "eslint src --ext .ts",
-    "lint:fix": "pnpm run lint --fix",
-    "postinstall": "tsc --outDir ./build"
+    "lint:fix": "pnpm run lint --fix"
   },
   "dependencies": {
     "@mempool/mempool.js": "^2.3.0",
